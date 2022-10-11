@@ -12,8 +12,7 @@ const Card = ({ data }) => {
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
           <p className="card-text text-white-50">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          Are you a budding computer programmer? Take our quiz to see how much you know about the world of coding! 
           </p>
           <h5>Total: {total}</h5>
           <Link to={`/question/${id}`}>
