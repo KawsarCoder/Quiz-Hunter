@@ -1,3 +1,15 @@
+# Project Name: Programming Quiz
+
+# Live site link
+
+This is my live site project link https://quiz-hunt.netlify.app/
+
+# About my project
+
+=> It's the site of about programming quiz.
+=> You can check your ability by participating in quiz
+=> You can learn about the correct answer of the question that's why you can learn from this.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,4 +80,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # b6-quiz-crackerz-KawsarCoder
