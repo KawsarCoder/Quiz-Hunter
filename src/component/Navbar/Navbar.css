@@ -1,0 +1,12 @@
+.route-item {
+  text-decoration: none;
+  color: gray;
+  margin: 0 15px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+.route-item:hover {
+  background-color: blue;
+  color: bisque;
+}
