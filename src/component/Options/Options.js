@@ -1,4 +1,3 @@
-// import React, { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { EyeIcon } from "@heroicons/react/24/solid";
@@ -13,6 +12,9 @@ const Options = (props) => {
     }
   };
   const eyeClick = () => {
+    toast.warning(`Answer is: ${correctAnswer}`, {
+      position: "top-center",
+    });
     const answer = document.getElementById(id);
     answer.classList.remove("d-none");
   };
