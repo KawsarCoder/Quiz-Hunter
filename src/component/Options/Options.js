@@ -18,12 +18,12 @@ const Options = (props) => {
   };
   return (
     <div className="p-5 my-3 bg-info rounded w-75 m-auto">
-      <div className="d-flex">
-        <h5 className="w-75">{question}</h5>
-        <div>
+      <div className="row">
+        <h5 className="col col-lg-10 col-md-9 col-sm-12 col-12">{question}</h5>
+        <div className="col col-lg-2 col-md-3">
           <EyeIcon
             onClick={() => eyeClick()}
-            className="h-25 w-25 text-blue-500"
+            className="h-25 w-50 text-blue-500"
           />
           <h6 id={id} className="d-none">
             {correctAnswer}
