@@ -7,8 +7,8 @@
   border-radius: 5px;
 }
 .route-item:hover {
-  background-color: blue;
-  color: bisque;
+  background-color: blueviolet;
+  color: white;
 }
 .site-logo {
   width: 30px;
