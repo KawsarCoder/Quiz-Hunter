@@ -1,11 +1,10 @@
-import React from "react";
+// import React, { useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { EyeIcon } from "@heroicons/react/24/solid";
 
 const Options = (props) => {
   const { id, correctAnswer, question, options } = props.question;
-  //   Check(correctAnswer);
   const check = (demo) => {
     if (correctAnswer === demo) {
       toast.success("Your answer is correct", { position: "top-center" });
@@ -15,7 +14,6 @@ const Options = (props) => {
   };
   const eyeClick = () => {
     const answer = document.getElementById(id);
-    // console.log(answer);
     answer.classList.remove("d-none");
   };
   return (

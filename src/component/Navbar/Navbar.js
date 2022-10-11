@@ -10,6 +10,11 @@ function CollapsibleExample() {
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand href="/" className="fw-bold">
+          <img
+            className="site-logo"
+            src="https://cdn-icons-png.flaticon.com/512/3874/3874176.png"
+            alt=""
+          />{" "}
           Quiz Hunter
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
