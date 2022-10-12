@@ -32,14 +32,13 @@ const Blog = () => {
           </Accordion.Item>
           <Accordion.Item eventKey="2">
             <Accordion.Header>
-              No-03: Write about use of Wrap in React!
+              No-03: Write about useRef hook in React!
             </Accordion.Header>
             <Accordion.Body>
-              Wrapper components are components that surround unknown components
-              and provide a default structure to display the child components.
-              This pattern is useful for creating user interface (UI) elements
-              that are used repeatedly throughout a design, like modals,
-              template pages, and information tiles.
+              The useRef Hook allows you to persist values between renders. It
+              can be used to store a mutable value that does not cause a
+              re-render when updated. It can be used to access a DOM element
+              directly.
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
